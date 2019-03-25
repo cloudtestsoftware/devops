@@ -4,7 +4,7 @@
 
   <groupId>devops</groupId>
   <artifactId>devops</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>devops</name>
@@ -42,13 +42,13 @@
   
 <distributionManagement>
     <repository>
-        <id>release</id>
+        <id>deployment</id>
         <name>release devops</name>
         <url>http://54.83.158.63:8081/repository/devops/</url>
     </repository>
     <snapshotRepository>
-        <id>snapshot</id>
-        <name>snapshot softx</name>
+        <id>deployment</id>
+        <name>snapshot</name>
         <url>http://54.83.158.63:8081/repository/snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
